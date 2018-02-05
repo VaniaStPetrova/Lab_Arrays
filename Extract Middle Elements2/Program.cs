@@ -30,7 +30,7 @@ namespace Extract_Middle_Elements2
             else
             {
                 Console.Write("{ ");
-                Console.WriteLine("{0}, {1}, {2}", answer[answer.Length / 2 - 1], answer[answer.Length / 2], answer[answer.Length / 2 + 1]);
+                Console.Write("{0}, {1}, {2}", answer[answer.Length / 2 - 1], answer[answer.Length / 2], answer[answer.Length / 2 + 1]);
                 Console.Write(" }");
             }
         }
